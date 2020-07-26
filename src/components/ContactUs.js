@@ -2,7 +2,10 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <section className="hero is-medium is-bold" style={{ height: "100%" }}>
+    <section
+      className="hero is-medium is-bold"
+      style={{ height: "100%", backgroundColor: "white" }}
+    >
       <div className="hero-body columns" style={{ paddingBottom: "10px" }}>
         <div className="column is-6" style={{ marginLeft: "50px" }}>
           <div className="container">
@@ -24,8 +27,14 @@ const ContactUs = () => {
               </p>
               <p>
                 <br />
-               Visit our website : <a href="https://scodein.tech" target="_blank"
-              rel="noopener noreferrer" >https://scodein.tech  </a>
+                Visit our website :{" "}
+                <a
+                  href="https://scodein.tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://scodein.tech{" "}
+                </a>
               </p>
             </h2>
           </div>
@@ -49,13 +58,20 @@ const ContactUs = () => {
               </p>
               <p>
                 <br />
-                <a href="https://www.123formbuilder.com/form-5553931/" target="_blank"
-              rel="noopener noreferrer" > Submit your feedback here </a>
+                <a
+                  href="https://www.123formbuilder.com/form-5553931/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  Submit your feedback here{" "}
+                </a>
               </p>
             </h2>
           </div>
         </div>
       </div>
+      <br />
     </section>
   );
 };

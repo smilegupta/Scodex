@@ -32,7 +32,7 @@ export default class Toolbar extends Component {
             this.state.scrolled ? "toolbar toolbar-scrolled" : "toolbar"
           }
         >
-          <nav className="toolbar__navigation">
+          <nav className="toolbar__navigation" style={{ zIndex: "1000px" }}>
             <div className="toolbar__logo">
               {/* <img src="" width="60%" alt="SCodex Logo"/> */}
               <span className="is-size-4 has-text-weight-medium">

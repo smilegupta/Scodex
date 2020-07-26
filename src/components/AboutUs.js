@@ -7,7 +7,7 @@ const AboutUs = () => {
       style={{ height: "100%" }}
       id="about"
     >
-      <div className="hero-body columns" style={{ paddingBottom: "10px" }}>
+      <div className="hero-body columns" style={{ paddingBottom: "2rem" }}>
         <div className="coulmn is-6">
           <center>
             <a href="https://i.ibb.co/2qK1ZSc/intro.png"></a>
