@@ -27,13 +27,14 @@ export default class HeaderPage extends Component {
         <section
           className="hero is-medium is-bold backgroundImage1"
           style={{ height: "100%" }}
+          id="home"
         >
           <Toolbar drawerClickHandle={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
           <div className="hero-body columns" style={{ paddingBottom: "10px" }}>
             <div className="column is-6" style={{ marginLeft: "100px" }}>
-              <div className="container" id="home">
+              <div className="container">
                 <h1 className="title">
                   <br />
                   <br />

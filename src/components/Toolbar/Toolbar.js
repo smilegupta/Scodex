@@ -35,7 +35,10 @@ export default class Toolbar extends Component {
           <nav className="toolbar__navigation">
             <div className="toolbar__logo">
               {/* <img src="" width="60%" alt="SCodex Logo"/> */}
-              <span className="is-size-4 has-text-weight-medium"> SCodex </span>
+              <span className="is-size-4 has-text-weight-medium">
+                {" "}
+                Student Mantras{" "}
+              </span>
             </div>
             <div className="spacer"></div>
             <div className="toolbar__navigation-items">
