@@ -33,7 +33,7 @@ export default class HeaderPage extends Component {
           {backdrop}
           <div className="hero-body columns" style={{ paddingBottom: "10px" }}>
             <div className="column is-6" style={{ marginLeft: "100px" }}>
-              <div className="container">
+              <div className="container" id="home">
                 <h1 className="title">
                   <br />
                   <br />
