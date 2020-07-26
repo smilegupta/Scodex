@@ -6,7 +6,7 @@ export default class Footerpage extends Component {
     return (
       <div>
         <footer
-          className="footer"
+          className="footer" id="contact"
           style={{ height: "100px", backgroundColor: "white" }}
         >
           <div className="has-text-centered">

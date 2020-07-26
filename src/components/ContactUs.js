@@ -9,7 +9,7 @@ const ContactUs = () => {
       <div className="hero-body columns" style={{ paddingBottom: "10px" }}>
         <div className="column is-6" style={{ marginLeft: "50px" }}>
           <div className="container">
-            <h1 className="title" id="contact">
+            <h1 className="title">
               Student Code-in 🤩
             </h1>
             <h2 className="subtitle has-text-weight-semibold">
