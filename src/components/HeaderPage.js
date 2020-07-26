@@ -25,7 +25,7 @@ export default class HeaderPage extends Component {
     return (
       <>
         <section
-          className="hero is-medium is-bold backgroundImage1"
+          className="hero is-medium is-bold"
           style={{ height: "100%" }}
           id="home"
         >
@@ -61,7 +61,7 @@ export default class HeaderPage extends Component {
                 <a href="https://i.ibb.co/2qK1ZSc/intro.png"></a>
                 <img
                   src="https://i.ibb.co/2qK1ZSc/intro.png"
-                  alt="jetbrains logo"
+                  alt="student mantra"
                   width="100%"
                 />
               </center>
