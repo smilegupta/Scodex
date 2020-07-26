@@ -22,6 +22,11 @@ const ContactUs = () => {
                 university/pre-university &nbsp; &nbsp; &nbsp; &nbsp; students
                 to open source software development.
               </p>
+              <p>
+                <br />
+               Visit our website : <a href="https://scodein.tech" target="_blank"
+              rel="noopener noreferrer" >https://scodein.tech  </a>
+              </p>
             </h2>
           </div>
         </div>
@@ -41,6 +46,11 @@ const ContactUs = () => {
                 - Don’t forget that feedback is one of the most essential
                 elements of &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 &nbsp; &nbsp; &nbsp; good communication.
+              </p>
+              <p>
+                <br />
+                <a href="https://www.123formbuilder.com/form-5553931/" target="_blank"
+              rel="noopener noreferrer" > Submit your feedback here </a>
               </p>
             </h2>
           </div>
