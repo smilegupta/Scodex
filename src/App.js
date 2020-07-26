@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/HeaderPage";
 
 function App() {
   return (
     <div>
-     <h1> Learning React </h1> 
+      <Header />
     </div>
   );
 }
