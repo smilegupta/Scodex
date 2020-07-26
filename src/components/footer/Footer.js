@@ -5,9 +5,11 @@ export default class Footerpage extends Component {
   render() {
     return (
       <div>
-        <footer className="footer" style={{height: "100px", backgroundColor: "ghostwhite"}}>
+        <footer
+          className="footer"
+          style={{ height: "100px", backgroundColor: "ghostwhite" }}
+        >
           <div className="has-text-centered">
-              
             <a
               href="https://www.instagram.com/studentcode_in/"
               target="_blank"
@@ -56,7 +58,6 @@ export default class Footerpage extends Component {
               <FontAwesome name="twitter" style={{ color: "#00acee" }} />{" "}
             </a>
             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
-            
             <a
               href="https://www.youtube.com/channel/UC-vtklY_rvSJogpbPnp8r-A"
               target="_blank"
@@ -71,10 +72,8 @@ export default class Footerpage extends Component {
             >
               {" "}
               &#169; {new Date().getFullYear()}{" "}
-              <a href="https://scodein.tech/">
-                Student Code In
-              </a>
-              . All Rights Reserved.
+              <a href="https://scodein.tech/">Student Code In</a>. All Rights
+              Reserved.
             </p>
             <br />
             {/* Made with ❤️ in India */}
