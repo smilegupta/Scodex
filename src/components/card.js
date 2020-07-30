@@ -1,6 +1,7 @@
 import React from "react";
 
-const card = () => {
+const card = (elem) => {
+  console.log(elem.data.elem);
   return (
     <div
       className="has-text-weight-semibold"
@@ -13,16 +14,20 @@ const card = () => {
     >
       <div class="has-text-centered">
         <img
-          src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png"
-          alt="logo"
+          src={elem.data.elem.logo}
+          alt={elem.data.elem.name}
           height="50px"
           width="50px"
         />
         <p class="is-size-5">
           {" "}
-          <a href="google" target="_blank" rel="noopener noreferrer">
+          <a
+            href={elem.data.elem.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {" "}
-            GeeksforGeeks{" "}
+            {elem.data.elem.name}{" "}
           </a>
         </p>
         <br />
