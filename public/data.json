@@ -1,22 +1,4 @@
 {
-    "card": [
-        {
-            "favicon": "",
-            "name": "Campus Ambassador Program"
-        },
-        {
-            "favicon": "",
-            "name": "Scholarships"
-        },
-        {
-            "favicon": "",
-            "name": "Internship Opportunties"
-        },
-        {
-            "favicon": "",
-            "name": "Full Time Opportunity"
-        }
-    ],
     "ca": [
         {
             "logo": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png",

@@ -9,7 +9,6 @@ const card = () => {
             “There are two hard things in computer science: cache invalidation,
             naming things, and off-by-one errors.”
           </p>
-          {/* <p class="subtitle has-text-white">Jeff Atwood</p> */}
         </div>
       </div>
     </div>

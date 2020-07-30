@@ -20,10 +20,6 @@ export default class Toolbar extends Component {
     });
   }
 
-  componentWillUnmount() {
-    window.removeEventListener("scroll");
-  }
-
   render() {
     return (
       <div>
