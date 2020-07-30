@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 
 const AboutUs = () => {
@@ -10,12 +11,17 @@ const AboutUs = () => {
       <div className="hero-body columns" style={{ paddingBottom: "2rem" }}>
         <div className="coulmn is-6">
           <center>
-            <a href="https://i.ibb.co/2qK1ZSc/intro.png"></a>
-            <img
-              src="https://i.ibb.co/2qK1ZSc/intro.png"
-              alt="student mantra"
-              width="100%"
-            />
+            <a
+              href="https://scodein.tech/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://i.ibb.co/2qK1ZSc/intro.png"
+                alt="student mantra"
+                width="100%"
+              />{" "}
+            </a>
           </center>
         </div>
         <div className="column is-6" style={{ marginLeft: "100px" }}>
