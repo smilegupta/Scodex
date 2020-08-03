@@ -6,10 +6,13 @@ import Intern from "./components/pages/Internship";
 import FullTime from "./components/pages/FullTime";
 import Scholarships from "./components/pages/Scholarship";
 import MainPage from "./MainPage";
+import Header from "./components/HeaderPage";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <div>
+       <Header />
       <Router>
         <Switch>
           <Route path="/" exact component={MainPage} />
@@ -19,6 +22,7 @@ function App() {
           <Route path="/campusambassador" component={Ca} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

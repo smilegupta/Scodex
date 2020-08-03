@@ -3,6 +3,8 @@ import "../App.css";
 import Toolbar from "./Toolbar/Toolbar";
 import SideDrawer from "./SideDrawer/SideDrawer";
 import Backdrop from "./Backdrop/Backdrop";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 export default class HeaderPage extends Component {
   state = {
@@ -32,7 +34,25 @@ export default class HeaderPage extends Component {
           <Toolbar drawerClickHandle={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
-          <div className="hero-body columns" style={{ paddingBottom: "10px" }}>
+
+          <Carousel>
+            <div>
+              <img src="https://climatecommunication.yale.edu/wp-content/uploads/2017/04/001-stone-circle-jpeg-768x350.jpg" />
+              <p className="legend">Legend 1</p>
+            </div>
+            <div>
+              <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" />
+              <p className="legend">Legend 1</p>
+            </div>
+
+            <div>
+              <img src="https://wallpapercave.com/wp/wp2599603.jpg" />
+              <p className="legend">Legend 1</p>
+            </div>
+            
+            
+          </Carousel>
+          {/* <div className="hero-body columns" style={{ paddingBottom: "10px" }}>
             <div className="column is-6" style={{ marginLeft: "100px" }}>
               <div className="container">
                 <h1 className="title">
@@ -58,7 +78,7 @@ export default class HeaderPage extends Component {
             </div>
             <div className="coulmn is-6">
               <center>
-                <a href="https://i.ibb.co/2qK1ZSc/intro.png"></a>
+                <a href="https://scodein.tech/"></a>
                 <img
                   src="https://i.ibb.co/2qK1ZSc/intro.png"
                   alt="student mantra"
@@ -66,15 +86,15 @@ export default class HeaderPage extends Component {
                 />
               </center>
             </div>
-          </div>
-          <div className="box">
+          </div> */}
+          {/* <div className="box">
             <p className="has-text-centered ">
               <b>
                 Whichever listing you looking for, we have a dedicated section
                 for it!{" "}
               </b>
             </p>
-          </div>
+          </div> */}
         </section>
       </>
     );
