@@ -1,7 +1,6 @@
 import React from "react";
 
 const card = (elem) => {
-  console.log(elem.data.elem);
   return (
     <div
       className="has-text-weight-semibold"

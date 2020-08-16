@@ -7,6 +7,8 @@ import FullTime from "./components/pages/FullTime";
 import Scholarships from "./components/pages/Scholarship";
 import MainPage from "./MainPage";
 import Header from "./components/HeaderPage";
+import Os from "./components/pages/opensourceprogram"
+import Swag from "./components/pages/codeandgrab"
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
           <Route path="/internships" component={Intern} />
           <Route path="/fulltime" component={FullTime} />
           <Route path="/campusambassador" component={Ca} />
+          <Route path="/opensource" component={Os} />
+          <Route path="/codeandgrab" component={Swag} />
         </Switch>
       </Router>
       <Footer />

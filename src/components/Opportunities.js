@@ -200,6 +200,96 @@ const Opportunities = () => {
           </div>
         </div>
         <div className="column is-3"></div>
+        <div className="column is-3">
+          <div
+            className="card "
+            style={{
+              borderRadius: "30px",
+              boxShadow: "none",
+              backgroundColor: "#d64161",
+              marginTop: "20px",
+            }}
+          >
+            <div className="card-content columns is-multiline">
+              <div className="column is-1">
+                {" "}
+                <FontAwesome
+                  name="code"
+                  style={{
+                    color: "white",
+                    paddingTop: "7px",
+                    fontSize: "2em",
+                  }}
+                >
+                  {" "}
+                </FontAwesome>{" "}
+              </div>
+              <div className="column is-11">
+                <p className="is-size-5 has-text-white has-text-justify has-text-weight-bold">
+                  Opensouce Programs
+                </p>
+              </div>
+              <div
+                className="column is-12 has-text-white has-text-weight-medium"
+                style={{ fontSize: "14.5px" }}
+              >
+                {" "}
+                <Link to="/opensource" className="has-text-white">
+                  {" "}
+                  <p>
+                    {" "}
+                    Click here to read about different Opensouce Programs{" "}
+                  </p>{" "}
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="column is-3">
+          <div
+            className="card "
+            style={{
+              borderRadius: "30px",
+              boxShadow: "none",
+              backgroundColor: "#d9ad7c",
+              marginTop: "20px",
+            }}
+          >
+            <div className="card-content columns is-multiline">
+              <div className="column is-1">
+                {" "}
+                <FontAwesome
+                  name="heart-o"
+                  style={{
+                    color: "white",
+                    paddingTop: "7px",
+                    fontSize: "2em",
+                  }}
+                >
+                  {" "}
+                </FontAwesome>{" "}
+              </div>
+              <div className="column is-11">
+                <p className="is-size-5 has-text-white has-text-justify has-text-weight-bold">
+                  Code and Grab
+                </p>
+              </div>
+              <div
+                className="column is-12 has-text-white has-text-weight-medium"
+                style={{ fontSize: "14.5px" }}
+              >
+                {" "}
+                <Link to="/codeandgrab" className="has-text-white">
+                  {" "}
+                  <p>
+                    {" "}
+                    Click here to read about different ways to win swags{" "}
+                  </p>{" "}
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

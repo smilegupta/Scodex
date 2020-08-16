@@ -59,7 +59,7 @@ const ContactUs = () => {
               <p>
                 <br />
                 <a
-                  href="https://www.123formbuilder.com/form-5553931/"
+                  href="https://www.shortto.com/studentmantrafeedback"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
