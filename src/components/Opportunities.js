@@ -11,7 +11,7 @@ const Opportunities = () => {
       id="opportunties"
     >
       <div className="container has-text-centered">
-        <h1 className="title" id="contact">
+        <h1 className="title">
           Are you looking for some Opportunities? 🤨
         </h1>
         <h2 className="subtitle has-text-weight-semibold">

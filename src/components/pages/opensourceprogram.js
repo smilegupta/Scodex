@@ -14,7 +14,7 @@ const Opensource = () => {
   }, []);
   return (
     <section className="section">
-      <div className="hero-body columns" style={{ paddingBottom: "2rem" }}>
+      <div className="hero-body columns" style={{ paddingBottom: "2rem", marginTop:"100px" }}>
         <div className="coulmn is-6">
           <center>
             <a
@@ -36,18 +36,13 @@ const Opensource = () => {
               <br />
               <br />
               <br />
-              Scholarships 🤔
+              Opensource Porgrams 🤔
             </h1>
             <h2 className="subtitle has-text-weight-semibold">
               <p>
-                Applying for and receiving financial aid is an important part of
-                the educational process. We always stress that you should apply
-                early and apply often. Go through the scholarship search on
-                Scodex, we present before you a great chance towards finding the
-                best scholarships you are eligible for, browse through our site
-                to find helpful tips and advice on the scholarship application
-                process. The more scholarship information you have, the more
-                prepared you will be to do the best shortly.
+              Are you a college student looking to learn programming as well as help Open Source projects?
+              Good thing is that there are several organizations that offer internships to students to work on open-source projects.
+              Here we list the best open source internships with all the relevant information.
               </p>
             </h2>
           </div>

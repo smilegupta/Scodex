@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import DrawerToogleButton from "../SideDrawer/DrawerToggleButton";
 import "./Toolbar.css";
+import { Link } from "react-router-dom";
+
 
 export default class Toolbar extends Component {
   constructor(props) {
@@ -40,16 +42,10 @@ export default class Toolbar extends Component {
             <div className="toolbar__navigation-items">
               <ul>
                 <li>
-                  <a href="#home"> Home</a>
+                  <a href="/#home"> Home</a>
                 </li>
                 <li>
-                  <a href="#about">About Us</a>
-                </li>
-                <li>
-                  <a href="#opportunties">Opportunities</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact Us</a>
+                  <a href="/#contact">Contact Us</a>
                 </li>
               </ul>
             </div>

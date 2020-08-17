@@ -9,20 +9,20 @@ const ContactUs = () => {
       <div className="hero-body columns" style={{ paddingBottom: "10px" }}>
         <div className="column is-6" style={{ marginLeft: "50px" }}>
           <div className="container">
-            <h1 className="title">
+            <h1 className="title" id="contact">
               Student Code-in 🤩
             </h1>
             <h2 className="subtitle has-text-weight-semibold">
               <p>
                 {" "}
                 - The fast evolving face of technology today sets higher demands
-                for the &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; massive crowd
+                for the massive crowd
                 pleasing field "OPEN SOURCE".
               </p>
               <p>
                 {" "}
                 - Student Code-in is a global program to introduce
-                university/pre-university &nbsp; &nbsp; &nbsp; &nbsp; students
+                university/pre-university students
                 to open source software development.
               </p>
               <p>
@@ -39,22 +39,20 @@ const ContactUs = () => {
             </h2>
           </div>
         </div>
-        <div className="column is-6">
+        <div className="column is-5">
           <div className="container">
             <h1 className="title">Feedback 😁</h1>
             <h2 className="subtitle has-text-weight-semibold">
               <p>
                 {" "}
                 - Do you know What is the shortest word in the English language
-                that &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; contains the letters: abcdef? Answer: "Feedback"{" "}
+                that contains the letters: abcdef? Answer: "Feedback"{" "}
               </p>
 
               <p>
                 {" "}
                 - Don’t forget that feedback is one of the most essential
-                elements of &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp; good communication.
+                elements of good communication.
               </p>
               <p>
                 <br />

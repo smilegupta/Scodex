@@ -14,7 +14,7 @@ const Scholarship = () => {
   }, []);
   return (
     <section className="section">
-      <div className="hero-body columns" style={{ paddingBottom: "2rem" }}>
+      <div className="hero-body columns" style={{ paddingBottom: "2rem" , marginTop:"100px" }}>
         <div className="coulmn is-6">
           <center>
             <a

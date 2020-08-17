@@ -14,7 +14,7 @@ const CodeandGrab = () => {
   }, []);
   return (
     <section className="section">
-      <div className="hero-body columns" style={{ paddingBottom: "2rem" }}>
+      <div className="hero-body columns" style={{ paddingBottom: "2rem", marginTop:"100px" }}>
         <div className="coulmn is-6">
           <center>
             <a
@@ -36,18 +36,13 @@ const CodeandGrab = () => {
               <br />
               <br />
               <br />
-              Scholarships 🤔
+              Code and Grab 🤔
             </h1>
             <h2 className="subtitle has-text-weight-semibold">
               <p>
-                Applying for and receiving financial aid is an important part of
-                the educational process. We always stress that you should apply
-                early and apply often. Go through the scholarship search on
-                Scodex, we present before you a great chance towards finding the
-                best scholarships you are eligible for, browse through our site
-                to find helpful tips and advice on the scholarship application
-                process. The more scholarship information you have, the more
-                prepared you will be to do the best shortly.
+              As a developer, nothing piques the interest more than developer swag!
+              Here is a list created Code and Grab to scratch your own itch by starting a curation of such opportunities.
+              These are crowdsourced and verified by the community. All of them ship worldwide! 
               </p>
             </h2>
           </div>
