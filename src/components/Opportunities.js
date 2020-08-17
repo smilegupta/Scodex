@@ -12,7 +12,7 @@ const Opportunities = () => {
     >
       <div className="container has-text-centered">
         <h1 className="title">
-          Are you looking for some Opportunities? 🤨
+          Are you looking for some Opportunities? &#129320;
         </h1>
         <h2 className="subtitle has-text-weight-semibold">
           Here you can check the different Opportunities and grab them!

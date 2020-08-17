@@ -10,7 +10,7 @@ const maintile = () => {
                   <br />
                   <br />
                   <br />
-                  Hola Amigo! &nbsp; 👋
+                  Hola Amigo! &nbsp; &#x1F44B;
                 </h1>
                 <h2 className="subtitle has-text-weight-semibold">
                   <p>

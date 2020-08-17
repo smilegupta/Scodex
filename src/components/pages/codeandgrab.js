@@ -36,7 +36,7 @@ const CodeandGrab = () => {
               <br />
               <br />
               <br />
-              Code and Grab 🤔
+              Code and Grab &#129300;
             </h1>
             <h2 className="subtitle has-text-weight-semibold">
               <p>

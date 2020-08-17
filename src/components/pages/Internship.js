@@ -36,7 +36,7 @@ const Internship = () => {
               <br />
               <br />
               <br />
-              Internships 🤔
+              Internships &#129300;
             </h1>
             <h2 className="subtitle has-text-weight-semibold">
               <p>

@@ -10,7 +10,7 @@ const ContactUs = () => {
         <div className="column is-6" style={{ marginLeft: "50px" }}>
           <div className="container">
             <h1 className="title" id="contact">
-              Student Code-in 🤩
+              Student Code-in &#129321;
             </h1>
             <h2 className="subtitle has-text-weight-semibold">
               <p>
@@ -41,7 +41,7 @@ const ContactUs = () => {
         </div>
         <div className="column is-5">
           <div className="container">
-            <h1 className="title">Feedback 😁</h1>
+            <h1 className="title">Feedback &#128513; </h1>
             <h2 className="subtitle has-text-weight-semibold">
               <p>
                 {" "}
